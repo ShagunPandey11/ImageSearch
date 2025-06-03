@@ -35,15 +35,15 @@ const Search=()=>{
 
     const handleSearch=(e)=>{
         e.preventDefault();
-        fetchImage();
         setPage(1);
+        fetchImage();
         //console.log(searchInput.current.value);
     };
 
     const handleSelection=(selection)=>{
         searchInput.current.value=selection;
-        fetchImage();
         setPage(1);
+        fetchImage();
     };
 
     return (

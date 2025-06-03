@@ -34,21 +34,34 @@ h1{
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: var(--default-margin);
-   margin-top: var(--medium-margin);
-   margin-bottom: var(--larger-margin);
+   gap: 12px;
+   margin-top: 24px;
+   margin-bottom: 32px;
+}
+
+.buttons .btn{
+  background-color: #1e12f1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px ;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
 }
 
 .buttons .btn:active,
 .buttons .btn:focus{
-    background-color:var(--primary-color);
+    background-color: #4c4c70;
     outline: none;
     box-shadow: none;
     border: none;
 }
 
 .buttons .btn:hover{
-  background-color: rgba(107, 6, 6, 0.678);
+  background-color:#343454;
+  transform: translate(-1px);
 }
 
 .error-msg{
